@@ -1,13 +1,6 @@
-# 👨‍💼 Employee Management System
+Employee Management System
 
-### PHP & MySQL CRUD Application
-
-![PHP](https://img.shields.io/badge/PHP-7.4%2B-blue)
-![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-Educational-lightgrey)
-
+ PHP & MySQL CRUD Application
 A clean and professional **Employee Management System** built using
 **PHP, MySQL, and Bootstrap 5**.\
 This web application demonstrates full **CRUD (Create, Read, Update,
@@ -15,7 +8,7 @@ Delete)** operations with database integration.
 
 ------------------------------------------------------------------------
 
-## 📌 Project Overview
+##  Project Overview
 
 This project allows users to:
 
@@ -29,25 +22,25 @@ and learning purposes.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+Features
 
 ### 🔹 Core Functionality
 
--   ➕ Create new employee records\
--   📋 Read & display employees in a structured table\
--   ✏️ Update employee information\
--   🗑️ Delete employees from database
+Create new employee records\
+Read & display employees in a structured table\
+Update employee information\
+Delete employees from database
 
 ### 🔹 User Interface
 
--   Responsive Bootstrap 5 layout\
--   Clean table design\
--   HTML5 form validation\
--   Simple navigation flow
+Responsive Bootstrap 5 layout\
+Clean table design\
+HTML5 form validation\
+Simple navigation flow
 
 ------------------------------------------------------------------------
 
-## 🗄️ Database Schema
+ Database Schema
 
 ### Database Name:
 
@@ -79,9 +72,9 @@ CREATE TABLE employees (
 
 ------------------------------------------------------------------------
 
-## 🛠️ Installation & Setup
+#Installation & Setup
 
-### ✅ Requirements
+###  Requirements
 
 -   Laragon / XAMPP / WAMP
 -   PHP 7.4 or higher
@@ -90,7 +83,7 @@ CREATE TABLE employees (
 
 ------------------------------------------------------------------------
 
-### 🔧 Setup Instructions
+###  Setup Instructions
 
 1️⃣ Clone the repository or download ZIP.
 
@@ -110,7 +103,7 @@ CREATE TABLE employees (
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
+##  Project Structure
 
     employee-crud/
     ├── config.php
@@ -123,7 +116,7 @@ CREATE TABLE employees (
 
 ------------------------------------------------------------------------
 
-## 🔄 CRUD Operations
+##  CRUD Operations
 
   Operation   SQL Query
   ----------- -----------------------------------
@@ -131,25 +124,3 @@ CREATE TABLE employees (
   Read        SELECT \* FROM employees
   Update      UPDATE employees SET ... WHERE id
   Delete      DELETE FROM employees WHERE id
-
-------------------------------------------------------------------------
-
-## 🔐 Security Notes
-
--   Basic server-side validation
--   Database integration using MySQLi
-
-⚠ For production systems, use: - Prepared statements - CSRF protection -
-Input sanitization - Authentication system
-
-------------------------------------------------------------------------
-
-## 📱 Responsive Design
-
-Works on: - 💻 Desktop - 📱 Tablet - 📱 Mobile
-
-------------------------------------------------------------------------
-
-## 📄 License
-
-Free for educational use.
